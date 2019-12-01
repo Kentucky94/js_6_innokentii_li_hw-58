@@ -1,0 +1,16 @@
+.Alert{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-out;
+    z-index: 500;
+}
+
+.alert-dismiss{
+    float: right;
+    border: 0;
+    background: transparent;
+    margin-left: 10px;
+}
